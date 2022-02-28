@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 // dis.forward(request.response);
 @Controller
 public class PostController {
-    
+
+    @GetMapping("/imgTest")
+    public String imgTest(){
+        return "imgTest";
+    }
+
     @GetMapping("/writeForm")
     public String writeForm(){
         return "writeForm";
