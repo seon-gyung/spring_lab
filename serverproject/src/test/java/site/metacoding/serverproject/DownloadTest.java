@@ -17,6 +17,6 @@ public class DownloadTest {
         rt.getForObject("http://3.38.254.72:5000/api/hospital?sidoCdNm=부산&sgguCdNm=부산사하구", Hospital[].class);
         List<Hospital> list = Arrays.asList(response);
         System.out.println("========================================");
-        System.out.println(list.get(0));
+        System.out.println(list.get(1));
     }
 }
