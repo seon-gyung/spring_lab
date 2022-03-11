@@ -17,9 +17,14 @@ import site.metacoding.serverproject.domain.HospitalRepository;
 public class DownloadController {
 
     private final HospitalRepository hospitalRepository;
+    
+    @GetMapping("/")
+    public String downloadMain(){
+        return "download";
+    }
 
-    @GetMapping("/download")
-    public String download(Model model){
+    @GetMapping("/list")
+    public String list(Model model){
 
         // 1. URI로 다운로드
         RestTemplate rt = new RestTemplate(); // Spring이 제공해주는 HTTP 통신 템플릿. 동기 방식이다.
