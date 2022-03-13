@@ -6,6 +6,7 @@ import javax.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -27,4 +28,5 @@ public class Hospital {
     private String yposWgs84; // 세계지구 y좌표
     private String xpos; // x좌표
     private String ypos; // y좌표
+
 }
