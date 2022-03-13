@@ -8,6 +8,7 @@ For further reference, please consider the following sections:
 * [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.5.10/gradle-plugin/reference/html/#build-image)
 * [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.5.10/reference/htmlsingle/#using-boot-devtools)
 * [Spring Web](https://docs.spring.io/spring-boot/docs/2.5.10/reference/htmlsingle/#boot-features-developing-web-applications)
+* [Mustache](https://docs.spring.io/spring-boot/docs/2.5.10/reference/htmlsingle/#boot-features-spring-mvc-template-engines)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.5.10/reference/htmlsingle/#boot-features-jpa-and-spring-data)
 
 ### Guides
